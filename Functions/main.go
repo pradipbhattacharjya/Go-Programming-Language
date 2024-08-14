@@ -14,6 +14,13 @@ func multiply(a, b int) (result int) {
 	return
 }
 
+func division (a, b int) (result int) {
+	result = a / b
+	return
+}
+
+
+
 func main() {
 	fmt.Println("we are learing function in Golang")
 	simpleFunction()
@@ -22,4 +29,7 @@ func main() {
 
 	data := multiply(3, 4)
 	fmt.Println("multiply of two number is :", data)
+
+	datas := division(12, 24)
+	fmt.Println("division of two number is :", datas)
 }
